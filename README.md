@@ -52,10 +52,11 @@ https://develop.battle.net/documentation/world-of-warcraft/profile-apis
         
 ## Visual of your component hierarchy ##
 ## Wire Frames ## 
-![](..%5C..%5C..%5C..%5C..%5COneDrive%5CPictures%5CScreenshots%5CScreenshot%20(58).png)
-![](..%5C..%5C..%5C..%5C..%5COneDrive%5CPictures%5CScreenshots%5CScreenshot%20(57).png)
-![](..%5C..%5C..%5C..%5C..%5COneDrive%5CPictures%5CScreenshots%5CScreenshot%20(56).png)
-![](..%5C..%5C..%5C..%5C..%5COneDrive%5CPictures%5CScreenshots%5CScreenshot%20(55).png)
+![Screenshot (58)](https://user-images.githubusercontent.com/101364797/169387537-2617fef1-6627-41ca-8772-fb3919311b5b.png)
+![Screenshot (57)](https://user-images.githubusercontent.com/101364797/169387566-ab053b05-caad-4552-99d8-52f917d2ffce.png)
+![Screenshot (55)](https://user-images.githubusercontent.com/101364797/169387594-a582a699-ec41-4c28-ac83-ad24077513c0.png)
+![Screenshot (56)](https://user-images.githubusercontent.com/101364797/169387604-7055c51f-86c4-4fac-9c5b-36ab02aa473c.png)
+
 
 ## User Stories ##
 Add user stories following the As a [type of user], I want [what the user wants], so that [what it helps accomplish] format.
