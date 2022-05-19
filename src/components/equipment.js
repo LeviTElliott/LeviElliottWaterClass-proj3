@@ -1,11 +1,11 @@
 import React from 'react'
-// import styled from 'styled-components'
+import styled from 'styled-components'
 
 import { itemQuality } from '../helpers'
 
 const Equipment = ({ char }) => {
   return (
-    <tag id ="equipStyle">
+    <EquipmentStyles>
       <h2>Equipment</h2>
       <div className="row">
         <div className="slot">Main Hand</div>
@@ -286,8 +286,33 @@ const Equipment = ({ char }) => {
         </div>
       </div>
       <h3>Averge iLvl: {char.items.averageItemLevelEquipped}</h3>
-    </tag>
+    </EquipmentStyles>
   )
 }
- 
+
+const EquipmentStyles = styled.div`
+  background-color: rgba(14, 22, 48, 0.9);
+  padding: 2.5rem;
+  @media (min-width: 700px) {
+    width: 40%;
+  }
+  h2 {
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    margin-bottom: 1rem;
+  }
+  .slot {
+    color: #d7a12e;
+  }
+`
+
 export default Equipment
