@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+## Project Description ##
+A short description of your project.
+My Project is an application that will display all of an account's World of Warcraft characters and allow you to search and view individual characters based on their class or character level.
+## Link to the API you plan to use ##
+API link
+https://develop.battle.net/documentation/world-of-warcraft/profile-apis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Example data response you plan to use ##
+```
+{
+          "character": {
+            "href": "https://us.api.blizzard.com/profile/wow/character/dalaran/spittinrage?namespace=profile-us"
+          },
+          "protected_character": {
+            "href": "https://us.api.blizzard.com/profile/user/wow/protected-character/66-lu?namespace=profile-us"
+          },
+          "name": "Spittinrage",
+          "id": 222464943,
+          "realm": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/realm/66?namespace=dynamic-us"
+            },
+            "name": "Dalaran",
+            "id": 66,
+            "slug": "dalaran"
+          },
+          "playable_class": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-class/1?namespace=static-9.2.0_42277-us"
+            },
+            "name": "Warrior",
+            "id": 1
+          },
+          "playable_race": {
+            "key": {
+              "href": "https://us.api.blizzard.com/data/wow/playable-race/8?namespace=static-9.2.0_42277-us"
+            },
+            "name": "Troll",
+            "id": 8
+          },
+          "gender": {
+            "type": "MALE",
+            "name": "Male"
+          },
+          "faction": {
+            "type": "HORDE",
+            "name": "Horde"
+          },
+          "level": 60
+        }, 
+```
+        
+## Visual of your component hierarchy ##
+## Wire Frames ## 
+![](..%5C..%5C..%5C..%5C..%5COneDrive%5CPictures%5CScreenshots%5CScreenshot%20(58).png)
+![](..%5C..%5C..%5C..%5C..%5COneDrive%5CPictures%5CScreenshots%5CScreenshot%20(57).png)
+![](..%5C..%5C..%5C..%5C..%5COneDrive%5CPictures%5CScreenshots%5CScreenshot%20(56).png)
+![](..%5C..%5C..%5C..%5C..%5COneDrive%5CPictures%5CScreenshots%5CScreenshot%20(55).png)
 
-## Available Scripts
+## User Stories ##
+Add user stories following the As a [type of user], I want [what the user wants], so that [what it helps accomplish] format.
+As a user I want to:
 
-In the project directory, you can run:
+Be able to link my battle.net account
+Access my characters' data from that account
+Be able to look at all my character options based on level and class variables
+Be able to take a closer look at characters on an individual basis
 
-### `npm start`
+## MVP Goals ##
+Same as stated above
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Stretch Goals ##
+add battle.net authentication for other games besides WoW
+create other ways to search through characters besides class or level
+check other information per character besides class, race, realm, and level

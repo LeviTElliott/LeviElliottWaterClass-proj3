@@ -20,10 +20,10 @@ const Search = () => {
             method: 'POST'
         });
         const tokenData = await getToken.json();
-        const tokenBearer = tokenData.access_token;
+        const tokenBearer = process.env.access_token;
         console.log(tokenBearer);
       const lookupResponse = await fetch(
-        `https://us.api.blizzard.com/wow/character/${realm}/${char}?fields=stats&fields=items`,
+        `https://us.api.blizzard.com/profile/wow/character/${realm}/${char}/appearance`,
         {
             headers: {
                 Authorization: `Bearer ${tokenBearer}`,
